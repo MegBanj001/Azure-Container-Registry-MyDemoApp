@@ -2,13 +2,13 @@
 
 In this project, I did the following things to achieve my desired result.
 
-a. Containerize an application
+a. Containerized an application
 
-b. Create an Azure Registry and Container Instance
+b. Created an Azure Registry and Container Instance
 
-c. Build a Docker image and push it to Azure
+c. Built a Docker image and pushed it to Azure
 
-d. Deploy the image to Azure Container Service
+d. Deployed the image to Azure Container Service
 
 
 STEPS I TOOK:
