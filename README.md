@@ -3,8 +3,11 @@
 In this project, I did the following things to achieve my desired result.
 
 a. Containerize an application
+
 b. Create an Azure Registry and Container Instance
+
 c. Build a Docker image and push it to Azure
+
 d. Deploy the image to Azure Container Service
 
 
