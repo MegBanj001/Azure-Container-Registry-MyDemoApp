@@ -18,7 +18,8 @@ d. Deploy the image to Azure Container Service
 You need to activate the Admin user to be able to create an Azure Container Instances. After you have done this, it is time to go build the docker image.
 
 -Go to VS code, open a Terminal and type az login . az login helps you login to your azure account.
-After successfully logging into your Azure account, you type az acr login —name <the name of your azure container registry>. When that has been successful, you go ahead and build your docker image by running, docker build . -t <login server info>/<name of the image you want to create:latest>
+After successfully logging into your Azure account, you type az acr login —name <the name of your azure container registry>. 
+When that has been successful, you go ahead and build your docker image by running, docker build . -t <login server info>/<name of the image you want to create:latest>
 
 -I pushed the image I had created to Azure so that I can use it. For that purpose, I ran the docker push command. docker push <login server info>/<image name>
 
